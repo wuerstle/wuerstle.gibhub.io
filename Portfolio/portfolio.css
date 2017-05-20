@@ -3,7 +3,7 @@ html {
 	font-size: 1em;
 	line-height: 1.7em;
 	background-color: white;
-	font-family: 'Sansita', sans-serif;
+	font-family: 'Amatic SC', sans-serif;
 }
 
 /* Layout randabfallend */
@@ -24,22 +24,20 @@ li {
 }
 
 .Schreibschrift {
-	font-family: 'Sacramento', sans-serif;
+	font-family: 'Cedarville Cursive', sans-serif;
 }
 
-/* Smartphone - mobile first <=570px */
 /* Logo meiner Seite */
 #logo {
 	right: 1%;
-	top: 1%;
+	top: 0.3%;
 	position: fixed;
 	float: right;
 	height: 50px;
 	width: 50px;
-	z-index: 100000;
+	z-index: 200000;
 }
 
-/* Hamburger MenÃ¼ fÃ¼r Smartphone Ansicht */
 #hamburger_menu {
 	cursor: pointer;
 	padding: 15px;
@@ -47,6 +45,9 @@ li {
 	width: 6.9%;
 	float: right;
 	z-index: 100000;
+	background-color: black;
+	width: 99%;
+	top: 0;
 }
 
 /* Linien des Hamburger Icons */
@@ -60,7 +61,6 @@ li {
 	margin-bottom: 0;
 }
 
-/* MenÃ¼ fÃ¼r grÃ¶ÃŸere Devices */
 #normal_menu {
 	display: none;
 	position: fixed;
@@ -71,32 +71,45 @@ li {
 	float: right;
 	text-align: left;
 	width: 99%;
-	height: 7%;
+	height: 6%;
 	z-index: 10000;
 }
 
 header li {
-	margin-left: 1.5em;
-} 
+	margin-left: 2em;
+}
 
-#zeichnung {
-	display: block;
-	max-width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 1px solid #000000;
-	position: relative;
-	top: 8em;
-	z-index: 20000;
-	box-shadow: 5px 5px 10px 0px grey;
+header li:first-child  {
+	margin-top: 3em;
+}
+
+header a {
+	color: silver;
+	font-size: 1.5em;
+	font-weight: 800;
+}
+
+#hello {
+	background-color: black;
+	height: 25.9em;
+	color: white;
+	top: 0;
 }
 
 .Schreibschrift {
-	font-size: 1.5em;
+	font-size: 3.5em;
 	line-height: 0.7em;
 	text-align: center;
-	top: 6em;
+	top: 3em;
 	position: relative;
+	color: #BC8F8F;
+}
+
+#headline {
+	font-size: 2em;
+	position: relative;
+	text-align: center;
+	top: 5em;
 }
 
 main {
@@ -108,7 +121,7 @@ main {
 
 #headline1 {
 	text-align: center;
-	top: 8.5em;
+	top: 5.5em;
 	font-size: 1.7em;
 	position: relative;
 }
@@ -118,7 +131,7 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	width: 60%;
-	top: 14em;
+	top: 9em;
 	position: relative;
 	border-top: 1px solid #000000;
 	padding-top: 1%;
@@ -127,10 +140,11 @@ main {
 #skills {
 	text-align: center;
 	position: relative;
-	top: 14em;
+	top: 6em;
+	font-size: 1.5em;
 }
 
-section > ul {
+section>ul {
 	text-align: center;
 }
 
@@ -138,7 +152,7 @@ section > ul {
 	text-align: center;
 	font-size: 1.7em;
 	position: relative;
-	top: 13em;
+	top: 8em;
 }
 
 .Boxen {
@@ -147,14 +161,13 @@ section > ul {
 	margin: 1%;
 	padding: 1%;
 	color: black;
-	background-color: white;
 	text-align: center;
 	width: 70%;
 	height: 35em;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	top: 21em;
+	top: 13em;
 }
 
 #fotografie {
@@ -164,7 +177,6 @@ section > ul {
 	height: 350px;
 	margin-left: auto;
 	margin-right: auto;
-	z-index: 20000;
 	border-top: 1px solid #000000;
 	padding-top: 1%;
 }
@@ -176,7 +188,6 @@ section > ul {
 	position: relative;
 	height: 250px;
 	width: 400px;
-	z-index: 20000;
 }
 
 #Plakat {
@@ -186,7 +197,6 @@ section > ul {
 	position: relative;
 	width: 250px;
 	height: 350px;
-	z-index: 20000;
 	border: 1px solid #000000;
 }
 
@@ -197,7 +207,6 @@ section > ul {
 	position: relative;
 	width: 250;
 	height: 350px;
-	z-index: 20000;
 }
 
 #Modelle {
@@ -207,7 +216,6 @@ section > ul {
 	position: relative;
 	height: 200px;
 	width: 400px;
-	z-index: 20000;
 }
 
 #cross1 {
@@ -216,11 +224,10 @@ section > ul {
 	height: 40px;
 	position: relative;
 	transform: rotate(45deg);
-	top: 11em;
+	top: 15em;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	z-index: 20000;
 }
 
 #cross1:before {
@@ -231,7 +238,6 @@ section > ul {
 	position: absolute;
 	top: 13px;
 	left: -13px;
-	z-index: 20000;
 }
 
 #cross2 {
@@ -240,11 +246,10 @@ section > ul {
 	height: 40px;
 	position: relative;
 	transform: rotate(45deg);
-	top: 9em;
+	top: 4em;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	z-index: 20000;
 }
 
 #cross2:before {
@@ -255,11 +260,11 @@ section > ul {
 	position: absolute;
 	top: 13px;
 	left: -13px;
-	z-index: 20000;
 }
 
 .Unterschrift {
 	color: #BC8F8F;
+	font-size: 1.3em;
 }
 
 .Bildbeschreibung {
@@ -274,7 +279,7 @@ section > ul {
 	text-align: center;
 	font-size: 1.7em;
 	position: relative;
-	top: 7em;
+	top: 4em;
 }
 
 #Lisa {
@@ -284,30 +289,35 @@ section > ul {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	top: 11em;
+	top: 7em;
 	border-top: 1px solid #000000;
 	padding-top: 1%;
 }
 
-footer > p {
+footer>p {
 	text-align: center;
 	position: relative;
 	top: 0.5em;
 }
 
 #LisaWuerstle {
-	font-family: 'Sacramento';
+	display: block;
+	margin: 0 auto;
 	font-size: 1.3em;
+	font-weight: 500;
+	top: 7em;
+	width: 50%;
+	text-align: center;
 }
 
-button {
-	position: relative;
-	background-color: #BC8F8F;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	left: 55%;
-	top: 5em;
+#strong {
+	display: block;
+	margin: 0 auto;
+	font-size: 1.5em;
+	font-weight: 700;
+	top: 7em;
+	width: 50%;
+	text-align: center;
 }
 
 #HFU {
@@ -319,28 +329,3 @@ button {
 	height: 100px;
 	width: 150px;
 }
-
-/* Tablet portrait <=768px sieht gleich aus wie die Smartphone-Ansicht */
-
-/* fÃ¼r Tablet Landscape <=786px und Desktop Ansicht >1024px */
-@media screen and (min-width: 768px) {
-	#hamburger_menu {
-		display: none;
-	}
-	#normal_menu {
-		display: block;
-		background-color: black;
-	}
-
-	header li {
-		display: inline;
-		margin-left: 1em;
-	}
-	header a {
-		color: #BC8F8F;
-		font-size: 1.2em;
-		font-weight: 500;
-	}
-
-}
-
