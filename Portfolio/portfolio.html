@@ -1,128 +1,123 @@
 <!DOCTYPE html>
 <html lang="de">
-	<head>
-		<meta charset="utf-8">
-		<title>Lisa Wuerstle</title>
-		<meta name="author" content="Lisa">
-		<meta name="description" content="Portfolio Website">
-		<meta name="viewport" content="width=device-width; initial-scale=1.0">
-		<!-- Einbindung von Css und JS -->
-		<link rel="stylesheet" type="text/css" href="portfolio.css">
-		<script src="portfolio.js"></script>
-		<!-- Einbettung Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
-	</head>
+<head>
+<meta charset="utf-8">
+<title>Lisa Wuerstle</title>
+<meta name="author" content="Lisa">
+<meta name="description" content="Portfolio Website">
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<!-- Einbindung von Css und JS -->
+<link rel="stylesheet" type="text/css" href="portfolio.css">
+<script src="portfolio.js"></script>
+<!-- Einbettung Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC"
+	rel="stylesheet">
+</head>
 
-	<body>
-		<header>
+<body>
+	<header>
+		<nav>
 			<img id="logo" src="logo.png" alt="Logo">
-			<nav>
-				<!-- Hamburger Menü -->
-				<div href=" " id="hamburger_menu">
-					<div class="linie"></div>
-					<div class="linie"></div>
-					<div class="linie"></div>
-				</div>
-				<!-- Normales Menü -->
-				<ul id="normal_menu">
-					<li class="liste">
-						<a href="#showStart">START</a>
-					</li>
-					<li class="liste">
-						<a href="#showSkills">SKILLS</a>
-					</li>
-					<li class="liste">
-						<a href="#showProjects">PROJECTS</a>
-					</li>
-					<li class="liste">
-						<a href="#showContact">INTERESTED?</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-
-		<!--Inhalt-->
-		<main>
-			<div id="showStart">
-				<!-- Kopf der Website mit Zeichnung von mir -->
-				<img id="zeichnung" src="Zeichnung1.jpeg" alt="Zeichnung">
-				<p class="Schreibschrift">
-					Hello, i'm Lisa.
-				</p>
-				<p class="Schreibschrift">
-					Nice to meet you!
-				</p>
-				<div id="cross1"></div>
+			<!-- Hamburger Menü -->
+			<div href=" " id="hamburger_menu">
+				<div class="linie"></div>
+				<div class="linie"></div>
+				<div class="linie"></div>
 			</div>
+			<!-- Normales Menü -->
+			<ul id="normal_menu">
+				<li class="liste"><a href="#showStart">START</a></li>
+				<li class="liste"><a href="#showSkills">SKILLS</a></li>
+				<li class="liste"><a href="#showProjects">PROJECTS</a></li>
+				<li class="liste"><a href="#showContact">INTERESTED?</a></li>
+			</ul>
+		</nav>
+	</header>
 
-			<!-- Meine Skills -->
-			<div id="showSkills">
-					<h3 id="headline1">MY SKILLS</h3>
-					<img id="mySkills" src="skills.png" alt="Skills">
-					<p id="skills">
-						+ + &nbsp;&nbsp; Open Office &nbsp;&nbsp; + + &nbsp;&nbsp; Adope &nbsp;&nbsp; + + &nbsp;&nbsp; HTML5, CSS &nbsp;&nbsp; + + &nbsp;&nbsp; TypeScript + +
-					</p>
-			</div>
+	<!--Inhalt-->
+	<main>
+	<div id="showStart">
+		<!-- Kopf der Website mit Zeichnung von mir -->
+		<div id="hello">
+			<p class="Schreibschrift">Lisa Wuerstle</p>
+			<p id="headline">Student Medienkonzeption B. A.</p>
+			<div id="cross1"></div>
+		</div>
+	</div>
 
-			<!-- Meine Projekte -->
-			<div id="showProjects">
-				<h3 id="headline2">PROJECTS</h3>
-				<!-- Fotografie -->
-				<section class="Boxen">
-					<img id="fotografie" src="laura.jpg" alt="Portrait">
-					<h4 class="Unterschrift">Portrait Fotografie</h4>
-					<p class="Bildbeschreibung">
-						Schwarz-weiß Fotografie. In meiner Freizeit fotografiere ich gerne Dinge, die mich inspirieren. Dieses Portrait zeigt einen starken Gesichtsausdruck (Model: Laura Würstle).
-					</p>
-				</section>
-				<!-- Responsive Online-Shop -->
-				<section class="Boxen">
-					<img id="OnlineShopDesktop" src="Desktop.png" alt="Laptop">
-					<h4 class="Unterschrift">Responsive Online-Shop</h4>
-					<p class="Bildbeschreibung">
-						Der Online-Shop für Schmuckartikel wurde von mir selbst mit HTML5, CSS und TypeScript programmiert. Dieser Online-Shop ist responsive, was bedeutet dass das Design der Website an die Größe von verschiedenen Devices angepasst ist.
-					</p>
-				</section>
-				<!-- Plakat Gestaltung -->
-				<section class="Boxen">
-					<img id="Plakat" src="Hochschul_Plakat.jpg" alt="Plakat">
-					<h4 class="Unterschrift">Plakat Gestaltung</h4>
-					<p class="Bildbeschreibung">
-						Konzipierung und Gestaltung eines Plakates für den Hochschulball der Hochschule Furtwangen 2016 (in Zusammenarbeit mit Kommilitonen). Das Thema dieses Hochschulballes war Kirmes. Somit haben wir versucht, die perfekte Mischung aus Kirmes und Abendball zu finden.
-					</p>
-				</section>
-				<!-- Typotiere -->
-				<section class="Boxen">
-					<img id="Typotiere" src="typotier3.jpg" alt="Katze">
-					<h4 class="Unterschrift">Typotiere</h4>
-					<p class="Bildbeschreibung">
-						Diese Typotiere setzten sich ausschließlich aus einzelnen Buchstaben einer Schriftart zusammen und ergeben im Gesamtbild ein Tier. Hier sieht man eine Katze die sich aus Buchstaben der Schrift "Broad" zusammensetzt.
-					</p>
-				</section>
-				<!-- Modelle -->
-				<section class="Boxen">
-					<img id="Modelle" src="Modelle.jpg" alt="Häuser">
-					<h4 class="Unterschrift">Architektur</h4>
-					<p class="Bildbeschreibung">
-						Konzipierung und Umsetzung zweier architektonischen Modelle. Diese Modelle habe ich selbst entworfen (Grundriss) sowie zusammen gebaut. Links sieht man ein Stadthaus, rechts ein Landhaus.
-					</p>
-				</section>
-			</div>
-			<div id="cross2"></div>
-		</main>
+	<!-- Meine Skills -->
+	<div id="showSkills">
+		<h3 id="headline1">MY SKILLS</h3>
+		<img id="mySkills" src="skills.png" alt="Skills">
+		<p id="skills">+ + &nbsp;&nbsp; Open Office &nbsp;&nbsp; + +
+			&nbsp;&nbsp; Adope &nbsp;&nbsp; + + &nbsp;&nbsp; HTML5, CSS
+			&nbsp;&nbsp; + + &nbsp;&nbsp; TypeScript + +</p>
+	</div>
 
-		<footer id="showContact">
-				<h3 id="headline3">INTERESTED?</h3>
-				<img id="Lisa" src="Ich.jpg" alt="Ich">
-				<p id="LisaWuerstle">
-					Lisa Wuerstle
-				</p>
-				<p>
-					Media Student (Furtwangen University) | text me: lis97@gmx.de
-				</p>
-				<img id="HFU" src="HFU_Logo.png" alt="HFU Logo">
-		</footer>
+	<!-- Meine Projekte -->
+	<div id="showProjects">
+		<h3 id="headline2">PROJECTS</h3>
+		<!-- Fotografie -->
+		<section class="Boxen">
+			<img id="fotografie" src="laura.jpg" alt="Portrait">
+			<h4 class="Unterschrift">Portrait Fotografie</h4>
+			<p class="Bildbeschreibung">Schwarz-weiß Fotografie. In meiner
+				Freizeit fotografiere ich gerne Dinge, die mich inspirieren. Dieses
+				Portrait zeigt einen starken Gesichtsausdruck (Model: Laura
+				Würstle).</p>
+		</section>
+		<!-- Responsive Online-Shop -->
+		<section class="Boxen">
+			<img id="OnlineShopDesktop" src="Desktop.png" alt="Laptop">
+			<h4 class="Unterschrift">Responsive Online-Shop</h4>
+			<p class="Bildbeschreibung">Der Online-Shop für Schmuckartikel
+				wurde von mir selbst mit HTML5, CSS und TypeScript programmiert.
+				Dieser Online-Shop ist responsive, was bedeutet dass das Design der
+				Website an die Größe von verschiedenen Devices angepasst ist.</p>
+		</section>
+		<!-- Plakat Gestaltung -->
+		<section class="Boxen">
+			<img id="Plakat" src="Hochschul_Plakat.jpg" alt="Plakat">
+			<h4 class="Unterschrift">Plakat Gestaltung</h4>
+			<p class="Bildbeschreibung">Konzipierung und Gestaltung eines
+				Plakates für den Hochschulball der Hochschule Furtwangen 2016 (in
+				Zusammenarbeit mit Kommilitonen). Das Thema dieses Hochschulballes
+				war Kirmes. Somit haben wir versucht, die perfekte Mischung aus
+				Kirmes und Abendball zu finden.</p>
+		</section>
+		<!-- Typotiere -->
+		<section class="Boxen">
+			<img id="Typotiere" src="typotier3.jpg" alt="Katze">
+			<h4 class="Unterschrift">Typotiere</h4>
+			<p class="Bildbeschreibung">Diese Typotiere setzten sich
+				ausschließlich aus einzelnen Buchstaben einer Schriftart zusammen
+				und ergeben im Gesamtbild ein Tier. Hier sieht man eine Katze die
+				sich aus Buchstaben der Schrift "Broad" zusammensetzt.</p>
+		</section>
+		<!-- Modelle -->
+		<section class="Boxen">
+			<img id="Modelle" src="Modelle.jpg" alt="Häuser">
+			<h4 class="Unterschrift">Architektur</h4>
+			<p class="Bildbeschreibung">Konzipierung und Umsetzung zweier
+				architektonischen Modelle. Diese Modelle habe ich selbst entworfen
+				(Grundriss) sowie zusammen gebaut. Links sieht man ein Stadthaus,
+				rechts ein Landhaus.</p>
+		</section>
+	</div>
+	<div id="cross2"></div>
+	</main>
 
-	</body>
+	<footer id="showContact">
+		<h3 id="headline3">INTERESTED?</h3>
+		<img id="Lisa" src="Ich.jpg" alt="Ich">
+		<p id="LisaWuerstle">Hey! Mein Name ist Lisa Würstle. Ich studiere
+			derzeit Medienkonzeption im 2. Semester an der Hochschule in
+			Furtwangen. Meine Leidenschaft ist die Kreativität.</p>
+		<p id="strong">TEXT ME | lis97@gmx.de</p>
+		<img id="HFU" src="HFU_Logo.png" alt="HFU Logo">
+	</footer>
+
+</body>
 </html>

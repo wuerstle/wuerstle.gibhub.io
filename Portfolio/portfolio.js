@@ -1,4 +1,3 @@
-/* DOMContent laden */
 document.addEventListener('DOMContentLoaded', function () {
     /* Konditionale if-else Anweisung */
     var menuOpen=false; 
@@ -11,4 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById ("normal_menu").style.display = "block";
             menuOpen = true;
          }
+     });
+    
 });
