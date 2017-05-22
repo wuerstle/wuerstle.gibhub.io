@@ -79,8 +79,8 @@ header li {
 	margin-left: 2em;
 }
 
-header li:first-child  {
-	margin-top: 3em;
+header li:first-child {
+	margin-top: 4em;
 }
 
 header a {
@@ -170,6 +170,21 @@ section>ul {
 	top: 13em;
 }
 
+.Boxen2 {
+	background-color: white;
+	position: relative;
+	margin: 1%;
+	padding: 1%;
+	color: black;
+	text-align: center;
+	width: 70%;
+	height: 27em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	top: 13em;
+}
+
 #fotografie {
 	display: block;
 	position: relative;
@@ -218,6 +233,15 @@ section>ul {
 	width: 400px;
 }
 
+#R2D2 {
+	disyplay: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 275px;
+	border: 1px solid black;
+}
+
 #cross1 {
 	background: #BC8F8F;
 	width: 13px;
@@ -246,7 +270,7 @@ section>ul {
 	height: 40px;
 	position: relative;
 	transform: rotate(45deg);
-	top: 4em;
+	top: 7em;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -271,15 +295,16 @@ section>ul {
 	line-height: 1.4em;
 	font-family: 'Helvetica', sans-serif;
 	font-size: 0.8em;
-	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 	padding-left: 1%;
+	padding-bottom: 5%;
 }
 
 #headline3 {
 	text-align: center;
 	font-size: 1.7em;
 	position: relative;
-	top: 4em;
+	top: 6em;
 }
 
 #Lisa {
@@ -289,7 +314,7 @@ section>ul {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	top: 7em;
+	top: 9em;
 	border-top: 1px solid #000000;
 	padding-top: 1%;
 }
@@ -305,7 +330,7 @@ footer>p {
 	margin: 0 auto;
 	font-size: 1.3em;
 	font-weight: 500;
-	top: 7em;
+	top: 9em;
 	width: 50%;
 	text-align: center;
 }
@@ -315,9 +340,10 @@ footer>p {
 	margin: 0 auto;
 	font-size: 1.5em;
 	font-weight: 700;
-	top: 7em;
+	top: 9em;
 	width: 50%;
 	text-align: center;
+	padding-bottom: 1em;
 }
 
 #HFU {
